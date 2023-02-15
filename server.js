@@ -19,6 +19,8 @@ const adminRoute = require("./routes/admin");
 const loginRoute = require("./routes/login");
 const indexRoute = require("./routes/index");
 const registerRoute = require("./routes/register");
+
+
 const couponRoute = require("./routes/coupons");
 const discountSearchRoute = require("./routes/discountsSearch");
 const merchantRoute = require("./routes/merchant");
@@ -56,25 +58,25 @@ app.use("/booking", bookingRoute);
 
 
 
-app.use("/register", registerRoute);
-app.use("/discountsSearch", discountSearchRoute);
-app.use("/coupons", couponRoute);
-app.use("/receipts", receiptRoute);
-app.use("/merchant", merchantRoute);
-app.use("/admin", adminRoute);
-app.use("/forgot", forgotRoute);
-app.use("/activate", activateRoute);
-app.use("/login", loginRoute);
-app.use("/referred", referredRoute);
-app.use("/logout", logoutRoute);
-app.use("/user", userRoute);
-app.use("/reset", resetRoute);
-app.use("/order", orderRoute);
-app.use("/card", cardRoute);
-app.use("/cardprocessing", cardProcessingRoute);
-app.use("/agent", agentRoute);
-app.use("/buypoint", buypointRoute);
-app.use("/customers", sudoRoute);
+// app.use("/register", registerRoute);
+// app.use("/discountsSearch", discountSearchRoute);
+// app.use("/coupons", couponRoute);
+// app.use("/receipts", receiptRoute);
+// app.use("/merchant", merchantRoute);
+// app.use("/admin", adminRoute);
+// app.use("/forgot", forgotRoute);
+// app.use("/activate", activateRoute);
+// app.use("/login", loginRoute);
+// app.use("/referred", referredRoute);
+// app.use("/logout", logoutRoute);
+// app.use("/user", userRoute);
+// app.use("/reset", resetRoute);
+// app.use("/order", orderRoute);
+// app.use("/card", cardRoute);
+// app.use("/cardprocessing", cardProcessingRoute);
+// app.use("/agent", agentRoute);
+// app.use("/buypoint", buypointRoute);
+// app.use("/customers", sudoRoute);
 
 
 app.use("/", indexRoute);
