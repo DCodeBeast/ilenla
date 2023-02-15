@@ -21,22 +21,22 @@ const indexRoute = require("./routes/index");
 const registerRoute = require("./routes/register");
 
 
-const couponRoute = require("./routes/coupons");
-const discountSearchRoute = require("./routes/discountsSearch");
-const merchantRoute = require("./routes/merchant");
-const activateRoute = require("./routes/activate");
-const forgotRoute = require("./routes/forgot");
-const referredRoute = require("./routes/referred");
-const logoutRoute = require("./routes/logout");
-const userRoute = require("./routes/user");
-const resetRoute = require("./routes/reset");
-const receiptRoute = require("./routes/receipts");
-const orderRoute = require("./routes/order");
-const buypointRoute = require("./routes/buypoint");
-const cardRoute = require("./routes/card");
-const cardProcessingRoute = require("./routes/cardprocessing");
-const agentRoute = require("./routes/agent");
-const sudoRoute = require("./routes/sudocustomer");
+// const couponRoute = require("./routes/coupons");
+// const discountSearchRoute = require("./routes/discountsSearch");
+// const merchantRoute = require("./routes/merchant");
+// const activateRoute = require("./routes/activate");
+// const forgotRoute = require("./routes/forgot");
+// const referredRoute = require("./routes/referred");
+// const logoutRoute = require("./routes/logout");
+// const userRoute = require("./routes/user");
+// const resetRoute = require("./routes/reset");
+// const receiptRoute = require("./routes/receipts");
+// const orderRoute = require("./routes/order");
+// const buypointRoute = require("./routes/buypoint");
+// const cardRoute = require("./routes/card");
+// const cardProcessingRoute = require("./routes/cardprocessing");
+// const agentRoute = require("./routes/agent");
+// const sudoRoute = require("./routes/sudocustomer");
 
 
 
